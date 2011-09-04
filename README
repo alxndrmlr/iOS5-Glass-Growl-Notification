@@ -1,0 +1,31 @@
+iOS 5 Glass Growl Notification
+
+By: @alxndrmlr
+
+Installation:
+
+There are 2 ways to install this style, the 1st option will install the style where the 2nd option will 
+both install the style an enable you to run the bleeding edge release via this repository.
+
+  1. Install
+     - Download this the style
+     - Double-click on iOS5GlassNotification.growlStyle (installs in ~/Library/Application Support/Growl/Plugins)
+     NOTE: You can always delete this file, or overwrite it with a newer version. You will need to restart growl to
+           detect the changes.
+     
+  2. Install and track changes
+  
+     #######  
+     WARNING: This method will require you to remove your saved settings! If you have a lot of configurations you may not want to do this.
+     #######
+  
+     - Fork the repo
+     - Create a symbolic link in ~/Library/Application Support/Growl/Plugins/ to the forked location of the repo
+         ie: ln -s  ~/Library/Application Support/Growl/Plugins/iOS5GlassNotification.growlStyle /<forked repo location>/iOS5GlassNotification.growlStyle
+       
+       NOTE: When you pull a change you'll need to nuke the GrowlHelperApp preference file, to do this simply;
+         - Quit Growl
+         - Run ./reinstall.sh
+         - Start Growl
+         
+If you have any feedback / modifications, send me a pull request or ping me on twitter.
