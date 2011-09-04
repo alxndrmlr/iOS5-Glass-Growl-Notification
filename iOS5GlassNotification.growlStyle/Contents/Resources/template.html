@@ -8,17 +8,22 @@
  		
  		<style type="text/css">
  			@import URL("default.css");
+ 			
+ 			.background {
+        background-color: rgba(10, 10, 10, %opacity%);
+      }
+      
  		</style>
  	</head>
  	<body>
  		<div id="wrapper">
  		  <div id="%priority%" class="background">
-        <div class="glass-top"></div>
+        <span class="glass-top"></span>
    			<div id="content">
-   			  <div id="icon"><img src="icon.png"></div>
+   			  <div id="icon"><img src="growlimage://%image%" alt="icon" /></div>
    			  <div id="info">
-     			  <div id="title">Elizabeth Watkins</div>
-     			  <div id="text">On break!</div>
+     			  <div id="title">%title%</div>
+     			  <div id="text">%text%</div>
    			  </div>
    			  <div class="clear"></div>
    			</div>

@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleName</key>
-	<string>iOS5 notification</string>
+	<string>iOS5 Glass Notification</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleGetInfoString</key>
-	<string>iPhone Notification</string>
+	<string>iOS 5 Glass Notification</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.Growl.WebKit.iOS5Notification</string>
+	<string>com.Growl.WebKit.iOS5GlassNotification</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundlePackageType</key>
@@ -21,12 +21,12 @@
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>GrowlPluginAuthor</key>
-	<string>tomge</string>
+	<string>Alexander Millar</string>
 	<key>GrowlHasShadow</key>
 	<true/>
 	<key>GrowlPaddingX</key>
-	<integer>0</integer>
+	<integer>5</integer>
 	<key>GrowlPaddingY</key>
-	<integer>0</integer>
+	<integer>5</integer>
 </dict>
 </plist>
