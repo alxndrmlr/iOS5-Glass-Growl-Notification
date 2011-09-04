@@ -28,7 +28,7 @@ body {
   z-index: 1;
 }
 
-#content {
+.content {
   position:relative;
   margin: .6em;
   z-index: 2;
@@ -44,7 +44,7 @@ body {
   padding: .5em 0 0 0;
 }
 
-#info {
+.info {
   float: left;
   width: 19.7em;
   padding: 0 0 0 .5em;
