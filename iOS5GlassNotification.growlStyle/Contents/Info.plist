@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleName</key>
+	<string>iOS5 notification</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleGetInfoString</key>
+	<string>iPhone Notification</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.Growl.WebKit.iOS5Notification</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>GWKS</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>GRRR</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>GrowlPluginAuthor</key>
+	<string>tomge</string>
+	<key>GrowlHasShadow</key>
+	<true/>
+	<key>GrowlPaddingX</key>
+	<integer>0</integer>
+	<key>GrowlPaddingY</key>
+	<integer>0</integer>
+</dict>
+</plist>
