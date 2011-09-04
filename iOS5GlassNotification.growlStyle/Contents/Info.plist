@@ -21,7 +21,7 @@
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>GrowlPluginAuthor</key>
-	<string>Alexander Millar</string>
+	<string>@alxndrmlr</string>
 	<key>GrowlHasShadow</key>
 	<true/>
 	<key>GrowlPaddingX</key>
